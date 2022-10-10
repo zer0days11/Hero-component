@@ -1,0 +1,90 @@
+html{
+    font-family: 'Rubik', sans-serif;
+    color: #444;
+}
+/* HEADER */
+header{
+    height: 100vh;
+    position: relative;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6) ,rgba(0, 0, 0, 0.6) ), url(../img/hero.jpg);
+    background-size: cover;
+   
+    
+}
+.color{
+    color: rgba(255, 255, 255, 0.8);
+}
+.header-container {
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.header-container-inner{
+    width: 50%;
+    
+} 
+
+.container{
+    margin:0 auto;
+    width: 1200px;
+}
+.nav{
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    cursor: pointer;
+    color: white;
+
+   
+}
+.logo:hover{
+    color: rgba(84, 91, 223, 0.347);
+    transition-duration: 0.7s;
+}
+.navigation:hover{
+    color: rgba(84, 91, 223, 0.347);
+    transition-duration: 0.7s;
+}
+h1{
+    font-size: 44px;
+    margin-bottom: 32px;
+    line-height: 1.05;
+}
+p{
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom:48px ;
+}
+.btn:link,
+.btn:visited{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #e67e22;
+    color: white;
+    display: inline-block;
+    padding: 16px 32px;
+    border-radius: 9px;
+}
+.btn:hover{
+    color: black;
+    transition-duration: 1s;
+}
+h2{
+    font-size: 44px;
+    margin-bottom:48px;
+}
+.section{
+    padding:96px 0;
+}
+.paragraph{
+    line-height: 1.05;
+}
+
+.random-container{
+    width: 1200px;
+    margin: 30px auto;
+}
